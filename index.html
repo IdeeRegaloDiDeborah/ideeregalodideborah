@@ -58,13 +58,45 @@
         </section>
 
         <!-- CONTATTI -->
+        <style>
+            .contact-options {
+                display: flex;
+                flex-direction: column;
+                align-items: center; /* Allinea al centro orizzontalmente */
+                gap: 10px;
+            }
+
+            .contact-item {
+                display: flex;
+                align-items: center; /* Allinea icona e testo sullo stesso livello */
+            }
+
+            .contact-options .icon {
+                width: 20px; /* Dimensione ridotta per le icone */
+                height: 20px;
+                margin-right: 10px; /* Spazio tra l'icona e il testo */
+            }
+        </style>
+
         <section id="contatti" class="section contatti">
             <h2>Contatti</h2>
-            <p>Scrivimi per collaborazioni o richieste personalizzate:</p>
-            <p><a href="mailto:IdeeRegaloDiDeborah@gmail.com">IdeeRegaloDiDeborah@gmail.com</a></p>
+            <p>Per richieste personalizzate, preventivi o collaborazioni, contattami:</p>
+
+            <div class="contact-options">
+                <div class="contact-item">
+                    <img src="static/icons/gmail.png" alt="Email Icon" class="icon">
+                    <a href="mailto:IdeeRegaloDiDeborah@gmail.com">IdeeRegaloDiDeborah@gmail.com</a>
+                </div>
+
+                <div class="contact-item">
+                    <img src="static/icons/whatsapp.png" alt="WhatsApp Icon" class="icon">
+                    <a href="https://wa.me/393408734562" target="_blank">+39 340 873 4562</a>
+                </div>
+            </div>
 
             <div class="socials">
-                <a href="https://www.instagram.com/ideeregalodideborah?igsh=MXJmbG1uaXZzYmVybg==">Instagram</a> · <a href="https://www.facebook.com/share/1CGRBezGSX/?mibextid=wwXIfr">Facebook</a>
+                <a href="https://www.instagram.com/ideeregalodideborah?igsh=MXJmbG1uaXZzYmVybg==">Instagram</a> · 
+                <a href="https://www.facebook.com/share/1CGRBezGSX/?mibextid=wwXIfr">Facebook</a>
             </div>
         </section>
 

@@ -3,100 +3,151 @@ const prodotti = {
     natalizia: [
         {
             id: 1,
-            titolo: "Candela Natalizia - Red Velvet",
-            prezzo: "€ 20,00",
-            descrizione: "Profumo di arancia e spezie, ispirata alle feste. Realizzata con stoppino in cotone e contenitore in vetro riutilizzabile.",
-            immagine: "static/images/WhatsApp Image 2025-10-25 at 13.28.35 (1).jpeg"
+            titolo: "Candela Natalizia - Nome 1",
+            prezzo: "€ XX,XX",
+            descrizione: "Inserire descrizione per candela 1",
+            immagine: "static/images/natale/natalizia1.jpeg"
         },
         {
             id: 2,
-            titolo: "Candela Natalizia - Golden Snow",
-            prezzo: "€ 22,00",
-            descrizione: "Una miscela di cannella, chiodi di garofano e mandarino per un'atmosfera dorata e festiva.",
-            immagine: "static/images/WhatsApp Image 2025-10-25 at 13.28.35 (1).jpeg"
+            titolo: "Candela Natalizia - Nome 2",
+            prezzo: "€ XX,XX",
+            descrizione: "Inserire descrizione per candela 2",
+            immagine: "static/images/natale/natalizia2.jpeg"
         },
         {
             id: 3,
-            titolo: "Candela Natalizia - Winter Spice",
-            prezzo: "€ 18,00",
-            descrizione: "Note calde di zenzero, cannella e vaniglia. Perfetta per le serate invernali in compagnia.",
-            immagine: "static/images/WhatsApp Image 2025-10-25 at 13.28.35 (1).jpeg"
+            titolo: "Candela Natalizia - Nome 3",
+            prezzo: "€ XX, XX",
+            descrizione: "Inserire descrizione per candela 3",
+            immagine: "static/images/natale/natalizia3.jpeg"
         },
         {
             id: 4,
-            titolo: "Candela Natalizia - Frosted Pine",
-            prezzo: "€ 19,00",
-            descrizione: "Profumo fresco di pino innevato con note di cedro. Evoca il profumo del bosco natalizio.",
-            immagine: "static/images/WhatsApp Image 2025-10-25 at 13.28.35 (1).jpeg"
+            titolo: "Candela Natalizia - Nome 4",
+            prezzo: "€ XX,XX",
+            descrizione: "Inserire descrizione per candela 4",
+            immagine: "static/images/natale/natalizia4.jpeg"
         }
     ],
     autunnale: [
         {
             id: 1,
-            titolo: "Candela Autunnale - Spiced Amber",
-            prezzo: "€ 18,00",
-            descrizione: "Candela in cera di soia con note di cannella e vaniglia. Perfetta per creare un'atmosfera calda nelle serate autunnali.",
-            immagine: "static/images/WhatsApp Image 2025-10-25 at 13.28.34.jpeg"
+            titolo: "Candela Autunnale - Nome 1",
+            prezzo: "€ XX,XX",
+            descrizione: "Inserire descrizione per candela 1",
+            immagine: "static/images/autunno/autunnale1.jpeg"
         },
         {
             id: 2,
-            titolo: "Candela Autunnale - Harvest Moon",
-            prezzo: "€ 17,00",
-            descrizione: "Profumo di mela, zucca e spezie. Un'esperienza olfattiva che cattura l'essenza dell'autunno.",
-            immagine: "static/images/WhatsApp Image 2025-10-25 at 13.28.34.jpeg"
+            titolo: "Candela Autunnale - Nome 2",
+            prezzo: "€ XX,XX",
+            descrizione: "Inserire descrizione per candela 2",
+            immagine: "static/images/autunno/autunnale2.jpeg"
         },
         {
             id: 3,
-            titolo: "Candela Autunnale - Forest Walk",
-            prezzo: "€ 19,00",
-            descrizione: "Note legnose e terrene con accenni di foglie secche e muschio. Ideale per le serate cozy.",
-            immagine: "static/images/WhatsApp Image 2025-10-25 at 13.28.34.jpeg"
+            titolo: "Candela Autunnale - Nome 3",
+            prezzo: "€ XX,XX",
+            descrizione: "Inserire descrizione per candela 3",
+            immagine: "static/images/autunno/autunnale3.jpeg"
+        },
+        {
+            id: 4,
+            titolo: "Candela Autunnale - Nome 4",
+            prezzo: "€ XX,XX",
+            descrizione: "Inserire descrizione per candela 4",
+            immagine: "static/images/autunno/autunnale4.jpeg"
+        },
+        {
+            id: 5,
+            titolo: "Candela Autunnale - Nome 5",
+            prezzo: "€ XX,XX",
+            descrizione: "Inserire descrizione per candela 5",
+            immagine: "static/images/autunno/autunnale5.jpeg"
+        },
+        {
+            id: 6,
+            titolo: "Candela Autunnale - Nome 6",
+            prezzo: "€ XX,XX",
+            descrizione: "Inserire descrizione per candela 6",
+            immagine: "static/images/autunno/autunnale6.jpeg"
         }
     ],
     primaverile: [
         {
             id: 1,
-            titolo: "Candela Primaverile - Blossom",
-            prezzo: "€ 16,00",
-            descrizione: "Profumazione fresca di fiori di campo e cera naturale. Porta la primavera in casa con una luce dolce e color pastello.",
-            immagine: "static/images/WhatsApp Image 2025-10-25 at 13.28.35 (3).jpeg"
+            titolo: "Candela Primaverile - Nome 1",
+            prezzo: "€ XX,XX",
+            descrizione: "Inserire descrizione per candela 1",
+            immagine: "static/images/primavera/primavera1.jpeg"
         },
         {
             id: 2,
-            titolo: "Candela Primaverile - Fresh Meadow",
-            prezzo: "€ 17,00",
-            descrizione: "Note di erba fresca, lilac e gelsomino. Perfetta per rinfrescare le stanze di casa in primavera.",
-            immagine: "static/images/WhatsApp Image 2025-10-25 at 13.28.35 (3).jpeg"
+            titolo: "Candela Primaverile - Nome 2",
+            prezzo: "€ XX,XX",
+            descrizione: "Inserire descrizione per candela 2",
+            immagine: "static/images/primavera/primavera2.jpeg"
         },
         {
             id: 3,
-            titolo: "Candela Primaverile - Garden Awakening",
-            prezzo: "€ 18,00",
-            descrizione: "Profumo delicato di peonia, tulipano e menta. Come camminare in un giardino fiorito al mattino.",
-            immagine: "static/images/WhatsApp Image 2025-10-25 at 13.28.35 (3).jpeg"
+            titolo: "Candela Primaverile - Nome 3",
+            prezzo: "€ XX,XX",
+            descrizione: "Inserire descrizione per candela 3",
+            immagine: "static/images/primavera/primavera3.jpeg"
+        }, 
+        {
+            id: 4,
+            titolo: "Candela Primaverile - Nome 4",
+            prezzo: "€ XX,XX",
+            descrizione: "Inserire descrizione per candela 4",
+            immagine: "static/images/primavera/primavera4.jpeg"
         }
     ],
-    estiva: [
+    sanvalentino: [
         {
             id: 1,
-            titolo: "Candela Estiva - Tropical Breeze",
-            prezzo: "€ 19,00",
-            descrizione: "Note di cocco, lime e fiori tropicali. Trasporta la brezza estiva direttamente nella tua casa.",
-            immagine: "static/images/WhatsApp Image 2025-10-25 at 13.28.35 (1).jpeg"
+            titolo: "Candela San Valentino - Nome 1",
+            prezzo: "€ XX,XX",
+            descrizione: "Inserire descrizione per candela 1",
+            immagine: "static/images/sanvalentino/sanvalentino1.jpeg"
         },
         {
             id: 2,
-            titolo: "Candela Estiva - Beach Sunset",
-            prezzo: "€ 20,00",
-            descrizione: "Profumo salato-fresco con note di agrumi e ambra. Evoca il profumo del mare al tramonto.",
-            immagine: "static/images/WhatsApp Image 2025-10-25 at 13.28.35 (1).jpeg"
+            titolo: "Candela San Valentino - Nome 2",
+            prezzo: "€ XX,XX",
+            descrizione: "Inserire descrizione per candela 2",
+            immagine: "static/images/sanvalentino/sanvalentino2.jpeg"
         },
         {
             id: 3,
-            titolo: "Candela Estiva - Lavender Dream",
-            prezzo: "€ 17,00",
-            descrizione: "Profumo rilassante di lavanda francese con accenni di miele. Perfetta per le serate estive serene.",
-            immagine: "static/images/WhatsApp Image 2025-10-25 at 13.28.35 (1).jpeg"
+            titolo: "Candela San Valentino - Nome 3",
+            prezzo: "€ XX,XX",
+            descrizione: "Inserire descrizione per candela 3",
+            immagine: "static/images/sanvalentino/sanvalentino3.jpeg"
+        }, 
+        {
+            id: 4,
+            titolo: "Candela San Valentino - Nome 4",
+            prezzo: "€ XX,XX",
+            descrizione: "Inserire descrizione per candela 4",
+            immagine: "static/images/sanvalentino/sanvalentino4.jpeg"
+        }
+    ], 
+    composizioni: [
+        {
+            id: 1,
+            titolo: "Composizione nome 1",
+            prezzo: "€ XX,XX",
+            descrizione: "Inserire descrizione per composizione 1",
+            immagine: "static/images/composizione/composizione1.jpeg"
+        },
+        {
+            id: 2,
+            titolo: "Composizione nome 2",
+            prezzo: "€ XX,XX",
+            descrizione: "Inserire descrizione per composizione 2",
+            immagine: "static/images/composizione/composizione2.jpeg"
         }
     ]
 };
