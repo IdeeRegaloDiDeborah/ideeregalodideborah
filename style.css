@@ -240,3 +240,359 @@ body {
     padding: 1.5rem;
   }
 }
+
+/* CATEGORIA HEADER */
+.categoria-header {
+  text-align: center;
+  padding: 2rem 0 1rem;
+  margin-top: 2rem;
+}
+
+.categoria-header h2 {
+  color: #e2b87f;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* PRODOTTI SINGOLI - LAYOUT VERTICALE */
+.prodotto {
+  cursor: pointer;
+}
+
+.prodotto:hover {
+  transform: scale(1.02);
+}
+
+/* MODAL CAROSELLO */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-content {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 700px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  animation: slideUp 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #999;
+  transition: color 0.2s ease;
+}
+
+.modal-close:hover {
+  color: #333;
+}
+
+/* CAROSELLO */
+.carousel-container {
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #f5f5f5;
+  flex-shrink: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-slide {
+  text-align: center;
+  width: 100%;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+/* BOTTONI FRECCIA OVERLAY */
+.carousel-nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(226, 184, 127, 0.85);
+  color: white;
+  border: none;
+  padding: 1rem 1.2rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  min-width: 45px;
+  min-height: 45px;
+}
+
+.carousel-nav-btn:hover {
+  background: rgba(212, 166, 106, 0.95);
+  transform: translateY(-50%) scale(1.15);
+}
+
+#prevBtn {
+  left: 1rem;
+}
+
+#nextBtn {
+  right: 1rem;
+}
+
+/* INFO CAROUSEL */
+.carousel-info {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  flex-shrink: 0;
+}
+
+.carousel-info h2 {
+  color: #e2b87f;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  word-break: break-word;
+}
+
+.carousel-info .prezzo {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.carousel-info p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+/* CONTROLLI CAROSELLO */
+.carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+.carousel-btn {
+  background: #e2b87f;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+.carousel-btn:hover {
+  background: #d4a66a;
+  transform: scale(1.05);
+}
+
+.carousel-btn:active {
+  transform: scale(0.98);
+}
+
+/* DOTS NAVIGAZIONE */
+.carousel-dots {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ddd;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.dot:hover {
+  background: #bbb;
+}
+
+.dot.active {
+  background: #e2b87f;
+  width: 24px;
+  border-radius: 5px;
+}
+
+/* RESPONSIVE - TABLET */
+@media (max-width: 768px) {
+  .modal-content {
+    padding: 1.5rem;
+    width: 95%;
+    max-height: 85vh;
+    border-radius: 12px;
+  }
+
+  .modal-close {
+    top: 0.8rem;
+    right: 0.8rem;
+    font-size: 1.5rem;
+  }
+
+  .carousel-slide img {
+    max-height: 300px;
+  }
+
+  .carousel-info h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .carousel-info .prezzo {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .carousel-info p {
+    font-size: 0.9rem;
+    max-height: 120px;
+  }
+
+  .carousel-controls {
+    gap: 0.8rem;
+  }
+
+  .carousel-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.85rem;
+  }
+
+  .dot.active {
+    width: 20px;
+  }
+}
+
+/* RESPONSIVE - MOBILE PICCOLI (< 480px) */
+@media (max-width: 480px) {
+  .modal {
+    padding: 0.5rem;
+  }
+
+  .modal-content {
+    padding: 1rem;
+    width: 100%;
+    max-height: 90vh;
+    border-radius: 8px;
+    margin: auto;
+  }
+
+  .modal-close {
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1.8rem;
+    z-index: 1001;
+  }
+
+  .carousel-container {
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+
+  .carousel-slide img {
+    max-height: 250px;
+  }
+
+  .carousel-info {
+    margin-bottom: 1.2rem;
+    padding: 0 0.5rem;
+  }
+
+  .carousel-info h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .carousel-info .prezzo {
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .carousel-info p {
+    font-size: 0.85rem;
+    max-height: 100px;
+    line-height: 1.4;
+  }
+
+  .carousel-controls {
+    gap: 0.6rem;
+  }
+
+  .carousel-btn {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.75rem;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+  }
+
+  .dot.active {
+    width: 16px;
+  }
+}
